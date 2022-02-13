@@ -1,3 +1,6 @@
+from math import hypot
+
+
 class Point:
     # __slots__ = ('_x', '_y')
 
@@ -15,6 +18,11 @@ class Point:
 
     def __ne__(self, other):
         return not a == b
+
+    def distance(self, other):
+        if not isinstance(other, self.__class__):
+            return NotImplemented
+        return hypot(self.x - other.x, self.y - other.y)
 
     @property
     def x(self):
@@ -35,9 +43,11 @@ class Point:
 
 if __name__ == '__main__':
     a = Point()
-    b = Point()
+    b = Point(1, 1)
 
     if a == b:
         print(f'{a} == {b}')
     else:
         print(f'{a} != {b}')
+
+    print(f'distance: {a.distance(b)}')
