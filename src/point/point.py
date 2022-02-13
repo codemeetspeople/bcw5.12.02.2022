@@ -17,7 +17,7 @@ class Point:
         return self.x == other.x and self.y == other.y
 
     def __ne__(self, other):
-        return not a == b
+        return not self == other
 
     def distance(self, other):
         if not isinstance(other, self.__class__):
