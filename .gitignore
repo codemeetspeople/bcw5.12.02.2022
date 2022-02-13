@@ -4,3 +4,7 @@ __pycache__/
 
 *.in
 *.out
+
+.coverage
+.pytest_cache/
+cover/
