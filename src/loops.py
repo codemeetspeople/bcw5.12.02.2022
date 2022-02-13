@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     # array = [1, 2, 3, 4, 5]
     #
     # for x in array:

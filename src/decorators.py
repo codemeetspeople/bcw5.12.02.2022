@@ -17,5 +17,5 @@ def hello2(username1, username2):
     print(f'Hello, {username1} and {username2}!')
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     hello2('caiman', 'saruman')

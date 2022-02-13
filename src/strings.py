@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     # x, y = list(map(int, input().strip().split()))
     #
     # print('%d + %d = %d' % (x, y, x+y))

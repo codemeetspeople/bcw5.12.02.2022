@@ -13,7 +13,7 @@ def array_print(array):
     print(out)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     array = array_scan()
     array_increment(array)
     array_print(array)

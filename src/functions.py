@@ -10,7 +10,7 @@ def crete_point(x, y, *args, color='black', **kwargs):
     print(f'{color.capitalize()} Point({x}, {y})')
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     # print(sequence_mult(10, 10, 10, 10))
     array = [2, 4, 100005000, 3000]
     parameters = {'color': 'yellow', 'password': 'admin', 'user': 'caiman'}

@@ -8,7 +8,7 @@ def my_range(start, end=None, step=1):
         start += step
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     for x in my_range(4):
         print(x)
 

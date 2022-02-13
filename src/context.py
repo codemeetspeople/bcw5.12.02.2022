@@ -12,7 +12,7 @@ class open_file:
         self._file.close()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     with open_file('task.in', 'r') as source:
         data = source.read()
 
